@@ -1,0 +1,133 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+ *{
+   font-family: "Century Gothic";
+ }
+
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ .row:before,
+ .row:after {
+     content: " ";
+     display: table;
+ }
+
+ .row:after {
+     clear: both;
+ }
+
+ .col-1 {
+     /*(1/12)x100*/
+     width: 8.333333%;
+ }
+
+ .col-2 {
+     /*(2/12)x100*/
+     width: 16.666667%;
+ }
+
+ .col-3 {
+     /*(3/12)x100*/
+     width: 25%;
+ }
+
+ .col-6 {
+     /*(6/12)x100*/
+     width: 50%;
+ }
+
+ .col-5 {
+     /*(5/12)x100*/
+     width: 41.666667%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ #home{
+   background-image: url(../assets/images/bg-home.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 554px;
+   text-align: center;
+   margin-top: 80px;
+ }
+
+#home .container{
+  color: white;
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2EEC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+  padding: 8px;
+}
+
+a:hover {
+  color: #E95853;
+}

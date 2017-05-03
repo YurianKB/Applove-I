@@ -1,0 +1,39 @@
+/*
+ * Clases reutilizables para el proyecto
+ * (Aquí pueden ir las clases de tu grid)
+ */
+
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+ .link{
+   font-weight: 400;
+   padding: 2%;
+   display: inline-block;
+ }
+
+ .logo{
+   float: right;
+ }
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
